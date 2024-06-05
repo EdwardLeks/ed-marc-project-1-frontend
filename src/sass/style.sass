@@ -3,12 +3,13 @@
 @import 'vars'
 
 body
-	background-color: $main
+	background-color: $background
 	font-family: $font
+	text-align: justify
 
 section
 	width: 100%
-	background-color: $main
+	background-color: $background
 
 h1, h2, h3, h4, h5, h6
 	color: $text
@@ -25,25 +26,6 @@ a
 	transition: $mt
 	&:hover
 		color: $accent
-
-.button
-	padding: 10px 20px
-	background-color: $accent
-	border-radius: $radius
-	color: $main
-	transition: $mt
-	border: none
-	&:hover
-		box-shadow: $shadow
-
-// --- To Delete ---
-.info
-	height: 100vh
-	display: flex
-	align-items: center
-	justify-content: center
-	flex-direction: column
-// --- To Delete ---
 
 // Always at the end
 @import 'media'
